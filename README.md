@@ -1,4 +1,4 @@
-# PruebaTecnicaAda_AlejandroArenas
+# Prueba Tecnica Ada - AlejandroArenas
 Prueba Práctica - Consulta API de Usuarios
 Descripción
 Este proyecto es una prueba práctica que demuestra la implementación de consultas a una API de usuarios. El objetivo principal es mostrar las habilidades de integración con servicios externos y manejo de datos de usuarios mediante peticiones HTTP.
