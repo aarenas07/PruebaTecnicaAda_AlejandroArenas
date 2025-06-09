@@ -9,6 +9,9 @@ Manejo de respuestas HTTP y gestión de errores
 Procesamiento y presentación de información de usuarios
 Implementación de buenas prácticas en el consumo de APIs
 
+**NOTA IMPORTANTE:**
+El codigo se encuentra en la rama master.
+
 # Tecnologías Utilizadas
 Angular17
 
