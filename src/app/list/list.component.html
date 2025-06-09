@@ -1,0 +1,30 @@
+<div>
+  <div class="header-container">
+    <h2>Lista de usuarios</h2>
+    <div class="search-container">
+      <input id="1" placeholder="Buscar nombre..." type="text" />
+    </div>
+  </div>
+  <div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Telefono</th>
+          <th>Email</th>
+          <th>Empresa</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{ user.id }}</td>
+          <td>{{ user.name }}</td>
+          <td>{{ user.phone }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.company.catchPhrase }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
